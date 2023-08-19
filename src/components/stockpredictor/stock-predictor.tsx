@@ -22,7 +22,7 @@ export default function StockPredictor() {
         console.error('There was an issue with Data Fetching: ', error);
       }
     }
-    fetchStocksFromAPI('http://146.190.112.250/api/stockpredictions');
+    fetchStocksFromAPI(`api/stockpredictions`);
   },[])
 
   function getStock(stocks: Stocks, currentTickerSymbol : TickerSymbol) {
