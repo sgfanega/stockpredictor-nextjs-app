@@ -18,7 +18,7 @@ export default function StockPredictorPanel() {
         console.error('There was an issue with Data Fetching: ', error);
       }
     }
-    fetchStocksFromAPI('http://146.190.112.250/api/stockpredictions');
+    fetchStocksFromAPI(`api/stockpredictions`);
   },[])
 
   return (
