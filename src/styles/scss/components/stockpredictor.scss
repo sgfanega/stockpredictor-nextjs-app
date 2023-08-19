@@ -1,0 +1,11 @@
+.stockpredictorchartjs {
+  @media screen and (max-width: 425px) {
+    padding-top: 5rem;
+  }
+  .canvas {
+    min-height: 100%;
+    @media screen and (max-width: 767px) {
+      min-height: 30rem;
+    }
+  }
+}
