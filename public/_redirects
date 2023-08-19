@@ -1,0 +1,2 @@
+# Redirects
+/api/* http://146.190.112.250/api/:splat 200!
