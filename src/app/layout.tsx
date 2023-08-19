@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Stock Predictor',
     description: 'A simple Stock Predictor using SVM Linear Regression',
-    url: 'https://stockpredictor.netlify.app',
+    url: 'https://stockpredictor-smf.netlify.app',
     images: '/public/og-image.png'
   }
 }
